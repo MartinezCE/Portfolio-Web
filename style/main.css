@@ -16,7 +16,7 @@ h3 {
 }
 
 .header {
-    background: url(img/bg.webp);
+    background: url(../img/bg.webp);
     background-size: cover;
     background-position: top center;
     position: relative;
