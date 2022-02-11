@@ -1,0 +1,48 @@
+.sobreMi {
+    max-width: 1080px;
+    padding: 60px 20px;
+    margin: auto;
+    &-contenedor {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-around;
+        &-texto {
+            margin-top: 20px;
+        }
+        &-parrafo {
+            margin-top: 35px;
+        }
+    }
+    &-habilidades {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        &-titulo {
+            grid-column: span 3;
+            text-align: left;
+            margin: 20px 0;
+        }
+        &-iconos {
+            width: 90px;
+            height: 70px;
+        }
+    }
+    &-presentacion {
+        display: flex;
+        flex-direction: column;
+        margin: 150px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sobreMi-contenedor {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .sobreMi-habilidades {
+        grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+        gap: 8px;
+    }
+}

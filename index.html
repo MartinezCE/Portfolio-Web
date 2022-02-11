@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47b26cfbec.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+    <link rel="stylesheet" href="/style/main.css">
+    <title>Cristian Martinez / Full Stack Developer</title>
+</head>
+
+<body>
+    <header id="inicio">
+        <section class="header">
+            <nav class="menu">
+                <label class="logo"> CEM; </label>
+                <ul class="menu_items" id="otroModo">
+                    <li><a href="#inicio"> inicio</a></li>
+                    <li><a href="#sobreMi"> sobre mi</a></li>
+                    <li><a href="#misProyectos">mis proyectos</a></li>
+                    <li><a href="#contacto">contacto</a></li>
+                </ul>
+                <span class="btn_menu" onclick="showmenu()">
+                    <i class="fa fa-bars" ></i>
+                </span>
+            </nav>
+            <div class="header-presentacion">
+                <div class="header-presentacion-contenedor">
+                    <div><img class="header-presentacion-img" src="/img/yo.png" alt=""></div>
+                    <div class="header-presentacion-text">
+                        <h1>Cristian Ezequiel Martinez</h1>
+                        <p>Desarrollador Web</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="sobreMi" class="sobreMi">
+            <h2 class="sobreMi-titulo">Sobre mi</h2>
+            <div class="sobreMi-contenedor">
+                <div class="sobreMi-contenedor-texto">
+                    <h3>Desarrollador web</h3>
+                    <div class="sobreMi-presentacion">
+                        <p class="sobreMi-contenedor-parrafo">Soy estudiante de Ingeniera en Computacion en la Universidad Tres de Febrero <br> y estudiante de la carrera Full Stack developer en Coderhouse.</p>
+                        <p>Busco mi primer experiencia profesional como Desarrollador</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt repellendus vel quidem, officiis unde totam adipisci hic? Qui, libero necessitatibus quisquam labore nisi eaque doloribus sit sint dolor eius ratione?</p>
+                        <a href="" download=""><button>Descargar CV</button></a>
+                    </div>
+                </div>
+                <div class="sobreMi-habilidades">
+                    <div class="sobreMi-habilidades-titulo">
+                        <h3>Mis habilidades</h3>
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/html.svg" alt="html-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/css.svg" alt="css-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/js.svg" alt="js-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/bootstrap.svg" alt="boostrap-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/sass.svg" alt="sass-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/github.svg" alt="github-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/git.svg" alt="git-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/java.svg" alt="java-logo">
+                    </div>
+                    <div class="sobreMi-habilidades-iconos">
+                        <img src="/img/reactjs.svg" alt="react-logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="misProyectos" class="proyectos">
+            <h2 class="proyectos-titulo">Mis proyectos</h2>
+
+            <div class="proyectos-card">
+                <div class="ui-card">
+                    <img class="img" src="/img/proyecto01.png " alt="proyecto1 " />
+                    <div class="description">
+                        <h3>1920 Bebidas</h3>
+                        <p>Maquetado con Boostrap, utilizando preprocesador Sass</p>
+                        <a class="btn-github" href="https://github.com/MartinezCE/bebidas1920/tree/master" target="_blank">github</a>
+                        <a class="btn-web" href="https://bebidas1920.netlify.app" target="_blank">sitio web</a>
+                    </div>
+                </div>
+                <div class="ui-card">
+                    <img class="img" src="/img/proyecto01.png " alt="proyecto1 " />
+                    <div class="description">
+                        <h3>TITULO</h3>
+                        <p>proyecto bla bla bla bla bla bla bla bla bla bla</p>
+                        <a class="btn-github" href="">Github</a>
+                        <a class="btn-web" href="">Sitio web</a>
+                    </div>
+                </div>
+                <div class="ui-card">
+                    <img class="img" src="/img/proyecto01.png " alt="proyecto1 " />
+                    <div class="description">
+                        <h3>TITULO</h3>
+                        <p>proyecto bla bla bla bla bla bla bla bla bla bla</p>
+                        <a class="btn-github" href="">Github</a>
+                        <a class="btn-web" href="">Sitio web</a>
+                    </div>
+                </div>
+                <div class="ui-card">
+                    <img class="img" src="/img/proyecto01.png " alt="proyecto1 " />
+                    <div class="description">
+                        <h3>TITULO</h3>
+                        <p>proyecto bla bla bla bla bla bla bla bla bla bla</p>
+                        <a class="btn-github" href="">Github</a>
+                        <a class="btn-web" href="">Sitio web</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-contenedor">
+                <a href="mailto:eze.cmartinez@gmail.com"><img src="/img/gmail.svg" alt="Email"></a>
+                <a href="https://www.linkedin.com/in/martinezce/" target="_blank"><img src="/img/linkedin.svg" alt="Linkedin"></a>
+                <a href="https://github.com/MartinezCE" target="_blank"><img src="/img/github.svg" alt="GitHub"></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer ">
+        <h3>Cristian Ezequiel Martinez</h3>
+        <h4>Front Developer</h4>
+    </footer>
+</body>
+
+</html>

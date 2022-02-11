@@ -1,0 +1,12 @@
+.contacto {
+    max-width: 1080px;
+    padding: 60px 20px;
+    margin: auto;
+    &-contenedor {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+        gap: 35px;
+        margin-top: 35px;
+        justify-items: center;
+    }
+}
